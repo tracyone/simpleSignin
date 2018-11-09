@@ -101,3 +101,5 @@ ENV/
 
 .idea/
 .DS_Store
+*.swp
+*.swo

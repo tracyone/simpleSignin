@@ -14,7 +14,30 @@
 
 * 设置环境变量和运行计划
 
+
 ![](travis-ci.png)
+
+本地运行:
+
+1. 安装依赖
+
+```
+sudo pip3 install selenium requestium pyquery
+```
+
+2. export环境变量
+
+```
+export unicomapp_username="18382289346"
+export unicomapp_password="123456"
+```
+
+3. 运行仓库下面的python脚本
+
+```
+whereis google-chrome-stable
+python3 ci-test.py
+```
 
 ## support
 
